@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="ame.png">
+    <title>Rock - Paper - Scissors !</title>
+</head>
+<body>
+    <div class="left">
+        <div class="name">
+            Your name below
+            <input id=input value="Player">
+        </div>
+        <div class="mode">
+            <p id="toot">2 out of 3</p>
+            <p id="toof">3 out of 5</p>
+        </div>
+    </div>
+    <div class="mid">
+        <div class="box" id="playerOptions">
+            <img val="r" src="rock.png">
+            <img val="p" src="paper.png">
+            <img val="s" src="scissors.png">
+        </div>
+        <div class="box" id="pcOptions">
+            <img class="little" val="r" src="rock.png">
+            <img class="little" val="p" src="paper.png">
+            <img class="little" val="s" src="scissors.png">
+        </div>
+    </div>
+    <div class="right">
+        SCORE
+        <div class="results">
+            <div class="player">
+                <div class="name">Player</div>
+                <div class="score" id="plSc">0</div>
+            </div>
+            <div class="pc">
+                <div class="name">PC</div>
+                <div class="score" id="pcSc">0</div>
+            </div>
+        </div>
+        <div id="msg">⠀</div>
+        <!-- <button id="pag">Play again</button> -->
+    </div>
+</body>
+</html>
